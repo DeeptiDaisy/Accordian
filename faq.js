@@ -51,6 +51,7 @@ function createFaq() {
   //createing element
   let Answer = document.createElement("div");
   Answer.className = "Answer";
+   Answer.classList.add(`${e.id}`);
   Answer.innerHTML = `<div><p>${e.answer}</p></div>`;
 
   //appending container and answer
